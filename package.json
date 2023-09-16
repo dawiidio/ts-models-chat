@@ -1,0 +1,30 @@
+{
+  "name": "@dawiidio/ts-models-chat",
+  "version": "1.0.0",
+  "description": "Talk to your TS models as you talks with ChatGPT",
+  "main": "lib/index.js",
+  "author": {
+    "email": "dawid@dawiid.io",
+    "name": "Dawid Wojda",
+    "url": "https://dawiid.io/"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "AI",
+    "dev tools",
+    "llm",
+    "ChatGPT",
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "typechat": "^0.0.10"
+  }
+}
